@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+@import url('https://fonts.googleapis.com/css?family=Chela+One');
+
+
+.header{
+background-image: url('https://www.fcinq.com/v3/wp-content/uploads/home.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 800px;
+}
+.logo{
+	width:200px;
+}
+.logo-title{
+	color: #fff;
+font-family: 'Open Sans', sans-serif;
+font-weight:400;
+letter-spacing: 5px;
+text-transform: uppercase;
+}
+.top-title{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 150px;
+}
+.top-title h1{
+font-family: 'Chela One', cursive;
+}
+.menu{
+padding: 50px;
+padding-top: 200px;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+background: #e2af05;
+height: 510px;
+opacity:1;
+position: relative;
+z-index: 5;
+transition: background .2s linear;
+-webkit-transition: background .2s linear;
+-moz-transition: background .2s linear;
+-ms-transition: background .2s linear;
+-o-transition: background .2s linear;
+}
+.menu a:hover{
+text-decoration: none;
+}
+.menu li{
+list-style: none;
+}
+.menu li a{
+color: #fff;
+display: block;
+font-family: 'Open Sans', sans-serif;
+font-weight:800;
+font-size: 25px;
+position: relative;
+text-transform: uppercase;
+}
+.mh-1:hover .menu{
+background: #ddd;
+z-index: 12;
+overflow: hidden;
+}
+.menu a:hover::before {
+left: -20px;
+width: 15px;
+}
+.menu a::before{
+background: #fff;
+bottom: 6px;
+content: "";
+display: block;
+left: 5px;
+height: 1px;
+position: absolute;
+transition: all .2s ease-out;
+-webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-ms-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+width: 0;
+}
+.myheader{
+	height: 200px;
+	background-color: #ccc;
+}
+.myheader .menu{
+padding: 50px;
+padding-top:10px;
+height: 130px;
+position: fixed;
+top: 0;
+width: 30%;
+}
+.myheader .header-left{
+position: fixed;
+top: 0;
+background-color:#151724;
+width: 60%;
+padding: 14px;
+height: 130px;
+}
+.myheader .menu li a{
+font-size: 15px;
+}
+.myheader .top-title{
+    position: fixed;
+    top: -120px;
+    text-align: center;
+    left: 30%;
+}
+.myheader .top-title h1{
+	font-size:25px;
+}	
+.myheader .logo-title{
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+/* EFFECTS
+***************/
+
+.glow {
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-transition: text-shadow 1s linear;
+       -moz-transition: text-shadow 1s linear;
+         -o-transition: text-shadow 1s linear;
+            transition: text-shadow 1s linear;
+}
+
+.glow.in {
+  text-shadow: 
+    0.025em 0.025em 0.025em rgba(0, 0, 0, 0.8),
+    0 0 0.5em rgba(255, 255, 255, 0.3);
+}
+
+.fade {
+  opacity: 0;
+    -webkit-transition: opacity 1s linear;
+       -moz-transition: opacity 1s linear;
+         -o-transition: opacity 1s linear;
+            transition: opacity 1s linear;
+}
+
+.fade.in {
+  opacity: 1;
+}
+
+
+footer{
+	margin-top:800px;
+}
+
+  .nav-i{
+    color:gold;
+  }
+  .nav-i{
+    padding-left: 20px;
+  }
+  #apdn{
+    color: goldenrod;
+  }
+  #SB,#BMY,#BSM{
+    display: inline;
+   padding-left: 100px;
+    width:435px;
+     height:350px;
+  }
+  #p-design{
+    margin-top: 15px;
+    font-size: 18pt;
+    display : block;
+  }
+  #t-design{
+    margin-top: 30px;
+    font-size: 35pt;
+    color : white;
+  }
+  #design{
+    background-color:goldenrod;
+   display: inline-block;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-left: 100px;
+  }#i-design{
+    margin-left: 65px;
+    margin-bottom: 50px;
+  }
+  #SB,#p-SB{
+    display: block;
+  }
+  #p-SB{ 
+    margin-left: 99px;
+    display: none;
+    font-size: 18pt;
+    color: goldenrod;
+  }
+  #SB,#t-SB{
+    display: block;
+   margin-right: 100px;
+  }
+  #t-SB{
+    color: gold;
+     font-size: 18pt;
+       background-color: goldenrod;
+        width: 338px;
+         margin-left: 99px;
+  
+          padding-bottom: 40px;
+           padding-top: 10px;
+  }
+  #BMY,#p-BMY{
+    display: block;
+  }
+  #p-BMY{ 
+    margin-left: 99px;
+    display: none;
+    font-size: 18pt;
+    color: goldenrod;
+  }
+  #BMY,#t-BMY{
+    display: block;
+  }
+  #t-BMY{
+    color: gold;
+     font-size: 18pt;
+       background-color: goldenrod;
+        width: 338px;
+         margin-left: 99px;
+          padding-bottom: 40px;
+           padding-top: 10px;
+  }
+  #BSM,#p-BSM{
+    display: block;
+  }
+  #p-BSM{ 
+    margin-left: 99px;
+    display: none;
+    font-size: 18pt;
+    color: goldenrod;
+  }
+  #BSM,#t-BSM{
+    display: block;
+  }
+  #t-BSM{
+    color: gold;
+     font-size: 18pt;
+       background-color: goldenrod;
+        width: 338px;
+         margin-left: 99px;
+          padding-bottom: 40px;
+           padding-top: 10px;
+  }
+  
+  #p-development{
+    margin-top: 15px;
+    font-size: 18pt;
+    display : inline-block;
+  
+    }
+  #t-development{
+    margin-top: 30px;
+    font-size: 35pt;
+    color : white;
+  }
+  #development{
+    background-color:goldenrod;
+   display: inline-block;
+   margin-left: 100px;
+  }
+  #i-development{
+    padding-bottom: 70px;
+    float: right;
+  }
+  
+  #p-marketing{
+    margin-top: 15px;
+    font-size: 18pt;
+    display : block;
+    }
+  #t-marketing{
+    margin-top: 30px;
+    font-size: 35pt;
+    color : white;
+  }
+  #marketing{
+    background-color:goldenrod;
+   display: inline-block;
+   margin-left: 100px;
+  }
+  #i-marketing{
+    margin-left: 65px;
+    margin-bottom: 50px;
+  }
+  
+  #pp{
+    padding-right: 100px;
+  }
+  
+  #design,#marketing,#development{
+    transition: transform 0.6s ease;
+    margin-left: -100px;
+    opacity: 0;
+  
+  }
+  section {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: #f1f4fa;
+}
+.wrap {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.wrap:hover {
+    background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+    color: white;
+}
+
+.ico-wrap {
+    margin: auto;
+}
+
+.mbr-iconfont {
+    font-size: 4.5rem !important;
+    color: #313131;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+.vcenter {
+    margin: auto;
+}
+
+.mbr-section-title3 {
+    text-align: left;
+}
+h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.display-5 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1.4rem;
+}
+.mbr-bold {
+    font-weight: 700;
+}
+
+ p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 25px;
+}
+.display-6 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1re
